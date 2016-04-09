@@ -25,13 +25,11 @@ public class PlayerRightClick {
 		
 		ItemDye dye = (ItemDye)itemUse.getItem();
 		BlockColored block = (BlockColored) clickedBlock;
+		
 		for(ForgeDirection side : ForgeDirection.VALID_DIRECTIONS) {
 			if(block.recolourBlock(event.world, event.x, event.y, event.z, side, BlockColored.func_150032_b(dye.getDamage(itemUse)))) {
 				event.entityPlayer.inventory.consumeInventoryItem(dye);
 			}
 		}
-		event.entityPlayer.inventory.consumeInventoryItem(dye);
 	}
-	
-
 }

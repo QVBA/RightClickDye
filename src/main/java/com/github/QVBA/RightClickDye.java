@@ -16,5 +16,4 @@ public class RightClickDye {
 	public void preInit(FMLPreInitializationEvent event) {
 		MinecraftForge.EVENT_BUS.register(new PlayerRightClick());
 	}
-
 }
