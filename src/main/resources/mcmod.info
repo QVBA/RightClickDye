@@ -2,8 +2,8 @@
 {
   "modid": "QVBARightClickDye",
   "name": "Right Click Dye",
-  "description": "Allows wool to be dyed by right clicking on it with dye",
-  "version": "1.1",
+  "description": "Allows wool, stained glass and carpets to be dyed by right clicking on them with dye",
+  "version": "1.2",
   "mcversion": "${mcversion}",
   "url": "http://github.com/QVBA/RightClickDye",
   "updateUrl": "",
